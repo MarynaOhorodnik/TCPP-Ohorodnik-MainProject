@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Text;
+
 
 namespace Task_9
 {
@@ -7,8 +7,8 @@ namespace Task_9
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.Unicode;
-            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
 
             int m;
             int n;
