@@ -12,8 +12,8 @@ namespace Task_9
 
             int m;
             int n;
-            m = MyProgram.GetData_keyb("значення m кількість стрічок масиву");
-            n = MyProgram.GetData_keyb("значення n кількість стовпців масиву");
+            m = MyProgram.GetData_keyb("значення M кількість стрічок масиву");
+            n = MyProgram.GetData_keyb("значення N кількість стовпців масиву");
 
             int[,] mas = new int[m, n];
 
@@ -21,7 +21,7 @@ namespace Task_9
             MyProgram.Arr_print(mas);
 
             int key;
-            key = MyProgram.GetData_keyb("значення ключа для пошуку", "numb");
+            key = MyProgram.GetData_keyb("значення 'ключа' для пошуку", "numb");
 
             MyProgram.Arr_find(mas, key);
 
@@ -29,11 +29,11 @@ namespace Task_9
 
             MyProgram.IsEqual func = MyProgram.ConditionCheck;
 
-            Console.WriteLine("\nВикликаємо функцію з делегатом\n");
+            Console.WriteLine("\n   Викликаємо функцію з делегатом\n");
 
             MyProgram.MyCalculation(mas, func);
 
-            Console.WriteLine("\nВикликаємо функцію з лямбда-виразом\n");
+            Console.WriteLine("\n   Викликаємо функцію з лямбда-виразом\n");
 
             MyProgram.MyCalculation(mas, x => x <= 27);
 
