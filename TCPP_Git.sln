@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPP_Git", "TCPP_Git\TCPP_Git.csproj", "{D9A42CD6-95DB-4C39-8096-16D93A6566AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A42CD6-95DB-4C39-8096-16D93A6566AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A42CD6-95DB-4C39-8096-16D93A6566AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A42CD6-95DB-4C39-8096-16D93A6566AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A42CD6-95DB-4C39-8096-16D93A6566AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8633049E-7C9E-480F-91EC-8B9A504BD5EA}
+	EndGlobalSection
+EndGlobal
