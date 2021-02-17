@@ -52,7 +52,7 @@ namespace Task_9
                 case "arr":
                     while (!int.TryParse(str, out x) | x <= 0)
                     {
-                        Console.WriteLine("Некоректне значення, спробуйте ще раз...");
+                        Console.WriteLine("Було введено некоректне значення, спробуйте ще раз...");
                         str = Console.ReadLine();
                     }
                     break;
@@ -60,7 +60,7 @@ namespace Task_9
                 case "numb":
                     while (!int.TryParse(str, out x))
                     {
-                        Console.WriteLine("Некоректне значення, спробуйте ще раз...");
+                        Console.WriteLine("Було введено некоректне значення, спробуйте ще раз...");
                         str = Console.ReadLine();
                     }
                     break;
