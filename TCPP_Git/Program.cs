@@ -12,6 +12,8 @@ namespace Task_9
 
             int m;
             int n;
+            /// Конфлікт вирішено 17.03
+            m = MyProgram.GetData_keyb("значення M кількість стрічок масиву - from browser");
             m = MyProgram.GetData_keyb("значення M кількість стрічок масиву - from IDE");
             n = MyProgram.GetData_keyb("значення N кількість стовпців масиву");
 
