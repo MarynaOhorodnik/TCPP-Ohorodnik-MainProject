@@ -12,7 +12,7 @@ namespace Task_9
 
             int m;
             int n;
-            m = MyProgram.GetData_keyb("значення M кількість стрічок масиву");
+            m = MyProgram.GetData_keyb("значення M кількість стрічок масиву - from browser");
             n = MyProgram.GetData_keyb("значення N кількість стовпців масиву");
 
             int[,] mas = new int[m, n];
